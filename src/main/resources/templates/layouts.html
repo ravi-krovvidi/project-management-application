@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="head_id">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" th:href="@{/css/formatting.css}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+
+<script type="text/javascript"
+	src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=avPzIalN_sLccUrG3lPOvXP7WdLteBrmLKyPVMGwWohgZ3Nt31cnMAenZNTMiIzFnmSYBXkvAzm6xVmkycdUuh6AWuiJBTbNP2LY92YriGsqB9K3evVe804AflgQYfvt69IGgUMV4m8-mY6s830I0oyxxex543_1hSnw6G9Utikhjl_X3fiilsD0GuY57o9L1iyuTvMtbYBN0xTKZcZ1lGETfEBqhOAItCmT0A2kD8eRDhNDhFtHjKO1f95nvJEH"
+	charset="UTF-8"></script>
+<link rel="stylesheet" crossorigin="anonymous"
+	href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hdHQtYi51ZGVteWNkbi5jb20vMjAxOS0xMS0xMV8xNi01NC0wNy1iY2E4NjE0YzZhOTJiYjU1NjA1NjUzYjQyNzc4MDZlZS9vcmlnaW5hbC5odG1sP3NlY3VyZT1VOHpVbjRHcnl0UFZORWJWNzhTR3p3JTNkJTNkJTJjMTYwNjk5NTQ0MCZmaWxlbmFtZT1uZXctcHJvamVjdC5odG1s" />
+</head>
+
+<nav th:fragment="navbar_id"
+	class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">Project Management Application</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarNav" aria-controls="navbarNav"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+			<li class="nav-item active"><a class="nav-link"
+				th:href="@{/home}">Home <span class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a class="nav-link" th:href="@{/projects}">Projects</a>
+			</li>
+			<li class="nav-item"><a class="nav-link" th:href="@{/employees}">Employees
+			</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+</html>
